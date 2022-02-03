@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #0000;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 0) , rgb(0, 0, 0));
+    /* background-color: #4834d4; 
+    /* background: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+    
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    margin-bottom: 50px;
+}
+
+.team-title {
+    margin: auto;
+    display: flex;
+    width: 100vw;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.team-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.doc-cards,
+.pat-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 50px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+}
+
+.doc-cards .card,
+.pat-cards .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 45%;
+    width: 300px;
+    height: 500px;
+    /* margin-top: 50px; */
+    margin: auto;
+    margin-bottom: 50px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #4834d4; 
+    background: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    -ms-flex-pack: distribute; 
+    justify-content: space-around;
+    border-radius: 39px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2),
+        0 5px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.doc-cards .card .profile-pic,
+.pat-cards .card .profile-pic {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 70%;
+    /* border-radius: 39px 39px 0px 0px; */
+    /* -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3),
+        0 5px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3), 0 5px 20px 0 rgba(0, 0, 0, 0.4); */
+    overflow: hidden;
+}
+
+.doc-cards .card .profile-pic img,
+.pat-cards .card .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px;
+    overflow: hidden;
+}
+
+.doc-cards .card .doc-name,
+.pat-cards .card .doc-name {
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.doc-cards .card em,
+.pat-cards .card em {
+    font-size: 14px;
+    font-weight: 400;
+    width: 85%;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.doc-cards .card .social-links,
+.pat-cards .card .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.doc-cards .card .social-links li,
+.pat-cards .card .social-links li {
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.doc-cards .card .social-links #SocialIcon,
+.pat-cards .card .social-links #SocialIcon {
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.doc-cards .card:hover,
+.pat-cards .card:hover {
+    -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.27),
+        0 10px 35px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.27),
+        0 10px 35px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.footer {
+    background: #0000;
+}
+
+hr.new4 {
+    border: 1px solid white;
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}

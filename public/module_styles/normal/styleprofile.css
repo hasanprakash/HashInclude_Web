@@ -1,0 +1,362 @@
+/*.nav-container {
+  height: 15vh;
+  width: 100%;
+  z-index: 500;
+}
+
+nav {
+  width: 90%;
+  margin: 10px auto auto auto;
+  min-height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+nav span img {
+  height: 5vh;
+  margin-right: 10px;
+}
+
+nav span h1 {
+  font-size: 2.1rem;
+  font-family: 'Cinzel', serif;
+  color: #fff;
+  font-weight: 800;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  padding: 0px 20px;
+}
+
+nav ul li i {
+  font-size: 1.6rem;
+}
+
+nav ul a {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-transition: 0s linear;
+  transition: 0s linear;
+}
+
+nav ul a:not(.trans-button):hover {
+  color: #a3a2a2;
+}
+
+nav ul button {
+  color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 2px solid #ffff;
+  width: 100px;
+  height: 32px;
+  border-radius: 11px;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav ul button:hover {
+  scale: 1.07;
+}
+
+.active {
+  color: #a3a2a2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: black;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.nav-container {
+  position: absolute;
+}
+
+nav span a h1 {
+  color: #fff;
+}
+
+nav li a {
+  color: #494747;
+}
+
+nav li button {
+  color: #494747;
+  border: 2px solid #131313;
+}*/
+
+.comfort-container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.comfort-container .comfort-left-container {
+  background: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+  height: 100%;
+  width: 30%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comfort-container .comfort-left-container .profile-left {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comfort-container .comfort-left-container .profile-left .name-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.comfort-container .comfort-left-container .profile-left .name-cont h1 {
+  color: #fff;
+}
+.comfort-container .comfort-left-container .profile-left .comfort-center-container {
+  margin: auto;
+  width: 29vh;
+  height: 29vh;
+  border-radius: 100%;
+  overflow: hidden;
+  -webkit-box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.5);
+}
+
+.comfort-container .comfort-left-container .profile-left .comfort-center-container .comfort-img-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.comfort-container .comfort-left-container .profile-left .comfort-center-container .comfort-img-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: fit;
+     object-fit: fit;
+  -o-object-position: 10% 20%;
+     object-position: 10% 20%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.8s ease;
+  transition: -webkit-transform 0.8s ease;
+  transition: transform 0.8s ease;
+  transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+}
+
+.comfort-container .comfort-left-container .profile-left .buttons {
+  margin-left: 5px;
+  margin-top: auto;
+}
+
+.comfort-container .comfort-left-container .profile-left .buttons .buy-but {
+  color: #c73c41;
+  font-size: 1.0rem;
+  font-weight: 700;
+  border: none;
+  width: 220px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.comfort-container .comfort-left-container .profile-left .buttons .back-but {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 32px;
+  border-radius: 11px;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.comfort-container .comfort-left-container .profile-left .buttons button:hover {
+  scale: 1.07;
+}
+
+.side-comfort-title {
+  position: absolute;
+  font-size: 8.5rem;
+  font-weight: 700;
+  left: -20%;
+  top: 45%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.comfort-right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+  height: 100%;
+  width: 70%;
+}
+
+.comfort-text-container1 {
+  height: 60%;
+  width: 80%
+/*  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-between;*/
+}
+
+/*
+.comfort-text-container1 .label h3,
+.comfort-text-container2 .label h3 {
+  font-size: 24px;
+  width: 100%;
+  color: #fff;
+  display: inline;
+}
+*/
+
+
+.comfort-text-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.comfort-text-container1 div {
+  font-size: 24px;
+  width: 100%;
+  color: #fff;
+}
+
+/* EVENTS */
+.comfort-text-container1 section {
+    background-color: black;
+}
+.comfort-text-container1 section a {
+    color: yellow;
+}
