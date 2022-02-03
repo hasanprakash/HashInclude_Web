@@ -45,7 +45,6 @@ app.component('base-header', BaseHeader);
 app.component('base-footer', BaseFooter);
 app.component('base-dialog', BaseDialog);
 
-
 // APP USED COMPONENTS
 app.use(router); 
 app.use(LoadScript)

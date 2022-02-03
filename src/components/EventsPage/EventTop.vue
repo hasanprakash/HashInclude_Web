@@ -14,7 +14,6 @@
             <img :src="require(`../../assets/Main Logos/h_technical.png`)"/>
         </div>
     </div>
-    
 </section>
 </template>
 
