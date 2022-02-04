@@ -1,7 +1,7 @@
 <template>
   <section class="menu cid-rNfTMffQrz" id="menu1-0" once="menu">
     <nav
-      class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color black"
+      class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent"
     >
       <button
         aria-controls="navbarSupportedContent"
