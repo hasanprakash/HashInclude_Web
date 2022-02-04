@@ -1,9 +1,11 @@
 <template>
-  It is about page
+  <about-container></about-container>
 </template>
 
 <script>
+import AboutContainer from './AboutContainer.vue'
 export default {
+  components: { AboutContainer },
 
 }
 </script>

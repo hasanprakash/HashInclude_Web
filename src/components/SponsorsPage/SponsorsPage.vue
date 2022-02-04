@@ -1,15 +1,19 @@
 <template>
-  <sponsors></sponsors>
+<div class="background">
+  <sponsors-top></sponsors-top>
+</div>
 </template>
 
 <script>
-import Sponsors from './Sponsors.vue'
+import SponsorsTop from './SponsorsTop.vue';
 export default {
-  components: { Sponsors },
+  components: { SponsorsTop },
 
 }
 </script>
 
-<style>
-
+<style scoped>
+.background {
+  background: black;
+}
 </style>
