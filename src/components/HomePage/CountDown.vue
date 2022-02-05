@@ -8,6 +8,7 @@
       loop
       playsinline
       style="pointer-events: none"
+      muted
     >
       <source src="../../assets/Videos/hash_countdown.mp4" type="video/mp4" />
       Your browser does not support HTML video.
@@ -16,7 +17,8 @@
 </template>
 
 <script>
-export default {};
+export default {
+};
 </script>
 
 <style scoped>
