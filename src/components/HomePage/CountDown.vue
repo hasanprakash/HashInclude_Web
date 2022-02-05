@@ -3,7 +3,6 @@
   <div class="video">
     <video
       width="400"
-      controls
       autoplay
       loop
       playsinline
