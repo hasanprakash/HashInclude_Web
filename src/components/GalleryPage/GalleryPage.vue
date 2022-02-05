@@ -1,10 +1,13 @@
 <template>
-  It is Gallery Page
+  <gallery-container></gallery-container>
 </template>
 
 <script>
+import GalleryContainer from './GalleryContainer.vue';
 export default {
-
+  components: {
+    GalleryContainer
+  }
 }
 </script>
 

@@ -1,10 +1,15 @@
 <template>
   <!-- Button trigger modal -->
-  <div></div>
+  <event-register></event-register>
 </template>
 
 <script>
-export default {};
+import EventRegister from './EventRegister.vue';
+export default {
+  components: {
+    EventRegister
+  }
+};
 </script>
 
 <style scoped>
